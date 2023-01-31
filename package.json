@@ -1,0 +1,14 @@
+{
+  "name": "7.7.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "cypress run --spec cypress/e2e/api.cy.js --record --key 668a152a-9587-48da-8f3a-5025a8a7ad8d"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.4.1"
+  }
+}
